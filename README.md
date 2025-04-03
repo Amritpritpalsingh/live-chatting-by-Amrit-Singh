@@ -10,3 +10,5 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+Stay connected with our fast, secure, and user-friendly chat app! Enjoy real-time messaging, group chats, voice notes, and media sharing with a seamless experience. End-to-end encryption ensures privacy, while customizable themes and emojis make chatting fun. Connect with friends anytime, anywhere—simple, fast, and reliable!
