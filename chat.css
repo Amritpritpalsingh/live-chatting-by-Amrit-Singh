@@ -1,0 +1,86 @@
+.main-con{
+    background-color: rgb(15, 121, 121);
+    height: 80vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.ent-form{
+    display: flex;
+    gap: 2rem;
+    margin-left: 1rem;
+}
+.ent-info{
+    border: 1px solid;
+    border-radius: .3rem;
+    padding: .35rem;
+}
+.chat-con{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    background-color:wheat;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 60vw;
+    align-items: center;
+    
+}
+.chat-send{
+    display: flex;
+    gap: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.chats-list{
+    height: 20rem;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    display: flex;
+    width: 50vw;
+}
+.chats-list::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.chats{
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    width: 50vw;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+}
+.you{
+    list-style: none;
+    align-self: flex-end;
+    background-color: cadetblue;
+    padding: .5rem;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    min-width: 10vw;
+    max-width: max-content;
+    margin-bottom: 1rem;
+}
+.someone{
+    list-style: none;
+    background-color:cornflowerblue ;
+    padding: .5rem;
+    padding-left: 1rem;
+    min-width: 10vw;
+    max-width: max-content;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    align-self: start;
+}
+
+.chat-time{
+    font-size: small;
+    text-align: end;
+}
